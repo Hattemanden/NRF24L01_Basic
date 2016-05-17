@@ -9,6 +9,11 @@ The other one is then listening for this, receiving this time, showing it to the
 
 The first NRF then receives this time, and then calculating the time it took, to send something to the other, and then receiving this againg. This time is then printed on the Serial monitor.
 
+## Sketch difference
+There is two different sketches. One for each NRF.
+The sketch inside the folder NRF24, is the transmitter, 
+ans the sketch inside the folder NRF24_2, is the receiver.
+
 ## Connections
 Connect NRF and Arduino as follows:
 
